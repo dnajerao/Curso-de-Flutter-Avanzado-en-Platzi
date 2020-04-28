@@ -1,79 +1,154 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\59b2e32214b1d2c0cc02afa25ae306c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d1d0906c0c65d968962b712bc3d10029\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c372490b7c366956b225dc00c992b6d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\bb87b4c27eeae4c993e10f651adb1adf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\7ca1b956ed4bef08d80958e3c0bc7eff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7d46daa50e340938bae7d9e8558da6ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\368f1dc34b93883bf67a7a17e4f93160\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3c7fcf51da8ee67d78f53abb8a8e7d9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\0c0429543e012364e92670126b7a12f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3489a30176bff98d62dbe4411f534b0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e0a3688df1a535b7054b94ad7cb5f363\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4cd32e44b328e16e23ef0ea8b3d6e236\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\08122a5c8d1e026f6777ca6929ccf31a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b7fbef6a944cb627f8ece30601c11759\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b5038ad13a52878ff5b054a2c989f15e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\66546a9934ba7101d5bd71fb4061c1ef\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e7bbe1e9a2f719d2073fc6f17335937d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1a06fa3f7d6076f498e22a4b4e0b236e\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\669745e9af4c5a4cff1c8c291e6e4028\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\31f66563c457f861438dbb35819fcf63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\cc247119beff41a7b89454cca13fbc95\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\58f0cb6152c3887c2c795509194cf477\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d075eb5f4daf78f4c4e7cbf2960b5ce4\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
 	package
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:2:5-41
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:1-39:12
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:1-39:12
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:8:5-66
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:8:22-64
 application
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:15:5-38:19
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:15:5-38:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4cd32e44b328e16e23ef0ea8b3d6e236\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4cd32e44b328e16e23ef0ea8b3d6e236\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1a06fa3f7d6076f498e22a4b4e0b236e\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1a06fa3f7d6076f498e22a4b4e0b236e\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4cd32e44b328e16e23ef0ea8b3d6e236\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:17:9-41
 	android:icon
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:18:9-43
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:18:9-43
 	android:name
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:16:9-57
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:16:9-57
 activity#com.anncode.platzitripsapp.MainActivity
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:19:9-37:20
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:19:9-37:20
 	android:launchMode
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:21:13-43
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:21:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:24:13-47
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:24:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:25:13-55
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:25:13-55
 	android:configChanges
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:23:13-137
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:23:13-137
 	android:theme
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:22:13-47
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:22:13-47
 	android:name
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:20:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:30:13-32:40
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:30:13-32:40
 	android:value
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:32:17-37
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:32:17-37
 	android:name
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:31:17-82
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:31:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:33:13-36:29
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:33:13-36:29
 action#android.intent.action.MAIN
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:34:17-68
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:34:17-68
 	android:name
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:35:17-76
+ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml:35:27-74
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml:35:27-74
 uses-sdk
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\59b2e32214b1d2c0cc02afa25ae306c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\59b2e32214b1d2c0cc02afa25ae306c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d1d0906c0c65d968962b712bc3d10029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d1d0906c0c65d968962b712bc3d10029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c372490b7c366956b225dc00c992b6d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\c372490b7c366956b225dc00c992b6d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\bb87b4c27eeae4c993e10f651adb1adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\bb87b4c27eeae4c993e10f651adb1adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\7ca1b956ed4bef08d80958e3c0bc7eff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\7ca1b956ed4bef08d80958e3c0bc7eff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7d46daa50e340938bae7d9e8558da6ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7d46daa50e340938bae7d9e8558da6ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\368f1dc34b93883bf67a7a17e4f93160\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\368f1dc34b93883bf67a7a17e4f93160\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3c7fcf51da8ee67d78f53abb8a8e7d9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3c7fcf51da8ee67d78f53abb8a8e7d9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\0c0429543e012364e92670126b7a12f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\0c0429543e012364e92670126b7a12f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3489a30176bff98d62dbe4411f534b0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3489a30176bff98d62dbe4411f534b0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e0a3688df1a535b7054b94ad7cb5f363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e0a3688df1a535b7054b94ad7cb5f363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4cd32e44b328e16e23ef0ea8b3d6e236\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4cd32e44b328e16e23ef0ea8b3d6e236\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\08122a5c8d1e026f6777ca6929ccf31a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\08122a5c8d1e026f6777ca6929ccf31a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b7fbef6a944cb627f8ece30601c11759\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b7fbef6a944cb627f8ece30601c11759\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b5038ad13a52878ff5b054a2c989f15e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b5038ad13a52878ff5b054a2c989f15e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\66546a9934ba7101d5bd71fb4061c1ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\66546a9934ba7101d5bd71fb4061c1ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e7bbe1e9a2f719d2073fc6f17335937d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e7bbe1e9a2f719d2073fc6f17335937d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1a06fa3f7d6076f498e22a4b4e0b236e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1a06fa3f7d6076f498e22a4b4e0b236e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\669745e9af4c5a4cff1c8c291e6e4028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\669745e9af4c5a4cff1c8c291e6e4028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\31f66563c457f861438dbb35819fcf63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\31f66563c457f861438dbb35819fcf63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\cc247119beff41a7b89454cca13fbc95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\cc247119beff41a7b89454cca13fbc95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\58f0cb6152c3887c2c795509194cf477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\58f0cb6152c3887c2c795509194cf477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d075eb5f4daf78f4c4e7cbf2960b5ce4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dnajerao\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d075eb5f4daf78f4c4e7cbf2960b5ce4\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dnajerao\Documents\Platzi\Flutter\Curso-de-Flutter-Avanzado-en-Platzi\android\app\src\main\AndroidManifest.xml
