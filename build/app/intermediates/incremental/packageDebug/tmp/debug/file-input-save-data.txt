@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 27 20:53:14 CDT 2020
+#Mon Apr 27 21:16:50 CDT 2020
 17.baseType=DIRECTORY
 4.path=flutter_assets/assets/img/beach.jpeg
 8.set=ASSET

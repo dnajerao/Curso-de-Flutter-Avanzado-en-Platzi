@@ -1,4 +1,4 @@
-#Mon Apr 27 20:53:12 CDT 2020
+#Mon Apr 27 21:16:49 CDT 2020
 base.0=C\:\\Users\\dnajerao\\Documents\\Platzi\\Flutter\\Curso-de-Flutter-Avanzado-en-Platzi\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
