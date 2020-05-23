@@ -30,7 +30,7 @@ class _SignInScreen extends State<SignInScreen> {
 
   Widget _handleCurrentSession(){
     return StreamBuilder(
-      stream: userBloc.authStatos,
+      stream: userBloc.authStatus,
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         // snapshot = data = object user
         if(!snapshot.hasData || snapshot.hasError) {

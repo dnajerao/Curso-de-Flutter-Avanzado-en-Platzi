@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:generic_bloc_provider/generic_bloc_provider.dart';
+import 'package:platzi_trips_app/Place/model/place.dart';
+import 'package:platzi_trips_app/User/bloc/bloc_user.dart';
 import 'package:platzi_trips_app/widgets/button_purple.dart';
 
 class DescriptionPlace extends StatelessWidget {
@@ -12,77 +15,98 @@ class DescriptionPlace extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+    UserBloc userBloc = BlocProvider.of<UserBloc>(context);
 
-    final star_half = Container (
-      margin: EdgeInsets.only(
-          top: 353.0,
-          right: 3.0
-      ),
+    return StreamBuilder<Place>(
+      stream: userBloc.placeSelectedStream,
+      builder: (BuildContext context, AsyncSnapshot<Place> snapshot){
+        if (snapshot.hasData) {
+          print("PLACE SELECTED: ${snapshot.data.name}");
+          Place place = snapshot.data;
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              titleStars(place),
+              descriptionWidget(place.description),
+              ButtonPurple(buttonText: "Navigate", onPressed: (){})
+            ],
+          );
+        }else {
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Container (
+                margin: EdgeInsets.only(
+                    top: 400.0,
+                    left: 20.0,
+                    right: 20.0
+                ),
 
-      child: Icon(
-        Icons.star_half,
-        color:  Color(0xFFf2C611),
-      ),
+                child: Text(
+                  "Selecciona un lugar",
+                  style: TextStyle(
+                      fontFamily: "Lato",
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.w900
+                  ),
+                  textAlign: TextAlign.left,
+                ),
+
+              )
+
+            ],
+          );
+        }
+      },
     );
 
-    final star_border = Container (
-      margin: EdgeInsets.only(
-          top: 353.0,
-          right: 3.0
-      ),
+  }
 
-      child: Icon(
-        Icons.star_border,
-        color:  Color(0xFFf2C611),
-      ),
-    );
-
-    final star = Container (
-      margin: EdgeInsets.only(
-        top: 353.0,
-        right: 3.0
-      ),
-
-      child: Icon(
-        Icons.star,
-        color:  Color(0xFFf2C611),
-      ),
-    );
-
-    final title_stars = Row (
+  Widget titleStars(Place place){
+    return Row (
       children: <Widget>[
         Container (
           margin: EdgeInsets.only(
-            top: 350.0,
-            left: 20.0,
-            right: 20.0
+              top: 350.0,
+              left: 20.0,
+              right: 20.0
           ),
 
           child: Text(
-            namePlace,
+            place.name,
             style: TextStyle(
-              fontFamily: "Lato",
-              fontSize: 30.0,
-              fontWeight: FontWeight.w900
+                fontFamily: "Lato",
+                fontSize: 30.0,
+                fontWeight: FontWeight.w900
+            ),
+            textAlign: TextAlign.left,
+          ),
+
+        ),
+        Container (
+          margin: EdgeInsets.only(
+            top: 370.0,
+          ),
+
+          child: Text(
+            "Likes: ${place.likes}",
+            style: TextStyle(
+                fontFamily: "Lato",
+                fontSize: 18.0,
+                fontWeight: FontWeight.w900,
+                color: Colors.amber
             ),
             textAlign: TextAlign.left,
           ),
 
         ),
 
-        Row(
-          children: <Widget>[
-            star,
-            star,
-            star,
-            star,
-            star_half
-          ],
-        )
       ],
     );
+  }
 
-    final description = Container(
+  Widget descriptionWidget(String descriptionPlace){
+    return Container(
       margin: new EdgeInsets.only(
           top: 20.0,
           left: 20.0,
@@ -100,19 +124,6 @@ class DescriptionPlace extends StatelessWidget {
 
       ),
     );
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        title_stars,
-        description,
-        ButtonPurple(
-          buttonText: 'Navigate',
-          onPressed: () {},
-        )
-      ],
-    );
-
   }
 
 }

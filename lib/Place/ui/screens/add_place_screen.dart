@@ -1,12 +1,13 @@
 import 'dart:io';
 
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 import 'package:platzi_trips_app/Place/model/place.dart';
 import 'package:platzi_trips_app/Place/ui/widgets/card_image.dart';
 import 'package:platzi_trips_app/Place/ui/widgets/text_input_location.dart';
 import 'package:platzi_trips_app/User/bloc/bloc_user.dart';
-import 'package:platzi_trips_app/User/model/user.dart';
 import 'package:platzi_trips_app/widgets/button_purple.dart';
 import 'package:platzi_trips_app/widgets/gradient_back.dart';
 import 'package:platzi_trips_app/widgets/text_input.dart';
@@ -73,11 +74,12 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                 Container(
                   alignment: Alignment.center,
                   child: CardImageWithFabIcon(
-                    pathImage: "assets/img/beach_palm.jpeg",
+                    pathImage: widget.image.path,
                     width: 350.0,
                     height: 250.0,
                     iconData: Icons.camera_alt,
                     left: 0,
+                    internet: false,
                   ),
                 ),
                 Container(
@@ -108,17 +110,31 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                     buttonText: 'Add place',
                     onPressed: () {
                       //Firebase Storage
+                      userBloc.currentUser.then((FirebaseUser user) {
+                        if(user !=  null) {
+                          String uid = user.uid;
+                          String path = '${uid}/${DateTime.now().toString()}.jpg';
+                          userBloc.uploadFile(path, widget.image)
+                            .then((StorageUploadTask storageUploadTask){
+                              storageUploadTask.onComplete.then((StorageTaskSnapshot snapshot){
+                                snapshot.ref.getDownloadURL().then((urlImage){
+                                  print('URLIMAGE: $urlImage');
 
-                      //Firestorage
-                      userBloc.updatePlaceDate(Place(
-                        name: _controllerTitlePlace.text,
-                        description: _controllerDesciptionPlace.text,
-                        likes: 0
-                      )).whenComplete(() {
-                        print('terminó');
-                        Navigator.pop(context);
+                                  userBloc.updatePlaceData(Place(
+                                      name: _controllerTitlePlace.text,
+                                      description: _controllerDesciptionPlace.text,
+                                      urlImage: urlImage,
+                                      likes: 0
+                                  )).whenComplete(() {
+                                    print('terminó');
+                                    Navigator.pop(context);
+                                  });
+
+                                });
+                              });
+                          });
+                        }
                       });
-
                     },
                   ),
                 ),
